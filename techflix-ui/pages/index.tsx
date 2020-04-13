@@ -16,7 +16,6 @@ interface HomePageProps {
     popularFilms: FilmModel[],
     popularActors: PersonModel[],
 }
-
 const Home : NextPage<HomePageProps> = ({features, popularFilms, popularActors}) => {
     return (
         <Page title="Home">
